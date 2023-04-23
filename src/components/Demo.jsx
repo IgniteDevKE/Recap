@@ -3,7 +3,7 @@ import React, {useState, useEffect} from 'react';
 import {copy, linkIcon, loader, tick} from "../assets";
 import { useLazyGetSummaryQuery } from '../services/article';
 
-const Demo = () => {
+export default function Demo () {
   const [article, setArticle] = useState({
     url:"",
     summary:"",
@@ -129,5 +129,3 @@ const handleCopy = (copyUrl) => {
     </section>
   );
 };
-
-export default Demo;
