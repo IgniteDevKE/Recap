@@ -10,7 +10,7 @@ export default function Hero ()  {
         <button 
           type='button'
           onClick={() =>
-            window.open("https://github.com/adrianhajdin/project_ai_summarizer", "_blank")
+            window.open("https://github.com/Ian-Chege/Summarizer-JSM", "_blank", "noopener")
             }
             className='black_btn'
         >
