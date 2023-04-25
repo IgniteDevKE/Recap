@@ -69,6 +69,27 @@
   }
 }
 
+/* For mobile phones: */
+@media screen and (max-width: 480px) {
+  .main {
+    padding: 0;
+  }
+}
+
+/* For tablets: */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .main {
+    padding: 10px;
+  }
+}
+
+/* For desktops: */
+@media screen and (min-width: 769px) {
+  .main {
+    padding: 20px;
+  }
+}
+
 /* Tailwind Styles */
 
 .app {
