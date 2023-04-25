@@ -22,7 +22,7 @@ const Hero = () => {
       </nav>
 
       <h1 className='head_text'>
-        Turn Your Articles Into <br className='max-md:hidden' />
+        Articles Into <br className='max-md:hidden' />
         <span className='orange_gradient'> Nutshells</span>
       </h1>
 
