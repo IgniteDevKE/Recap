@@ -64,36 +64,17 @@
 }
 
 @media screen and (max-width: 640px) {
-  .main {
-    padding: 0;
+  .gradient {
+    display: none;
   }
 }
 
-/* For mobile phones: */
-@media screen and (max-width: 480px) {
-  .main {
-    padding: 0;
-  }
-}
 
-/* For tablets: */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .main {
-    padding: 10px;
-  }
-}
-
-/* For desktops: */
-@media screen and (min-width: 769px) {
-  .main {
-    padding: 20px;
-  }
-}
 
 /* Tailwind Styles */
 
 .app {
-  @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
+  @apply relative ;
 }
 
 .black_btn {
