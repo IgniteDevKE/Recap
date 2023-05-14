@@ -52,10 +52,7 @@
   opacity: 0.15;
 }
 
-@keyframes move {
-  from { background-position: 0% 0%; }
-  to { background-position: -400px -400px; }
-}
+
 
 .element {
   background-image: radial-gradient(
@@ -70,7 +67,6 @@
     radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
     radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
     
-    animation: move 10s linear infinite;
 }
 
 
